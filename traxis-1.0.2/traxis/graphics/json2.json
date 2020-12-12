@@ -1,0 +1,35 @@
+{
+    "imageFileName": "D:/Ruchir/EngSci/Year 4/Capstone/High_Resolution/101640873.png",
+    "points": [
+        {
+            "designation": "end",
+            "x": 4531.241064006651,
+            "y": 866.9883624272653
+        },
+        {
+            "designation": null,
+            "x": 4400.374896093101,
+            "y": 1504.960931005819
+        },
+        {
+            "designation": null,
+            "x": 5283.72152950956,
+            "y": 1668.5436408977557
+        },
+        {
+            "designation": null,
+            "x": 9504.155444721531,
+            "y": 2224.724854530341
+        },
+        {
+            "designation": null,
+            "x": 12612.22693266833,
+            "y": 2633.6816292601834
+        },
+        {
+            "designation": "start",
+            "x": 13168.408146300915,
+            "y": 2731.8312551953454
+        }
+    ]
+}
