@@ -263,7 +263,12 @@ class MainWidget(skeleton.GuiSkeleton):
             to append_text() in JSONHandler.
         """
         dir_ = QtWidgets.QFileDialog.getExistingDirectory(None, 'Select a folder:', 'C:\\', QtWidgets.QFileDialog.ShowDirsOnly)
-        self.JSONTextBrowser.append_text(dir_)
+        
+        if not dir_:
+            return
+            
+        else:
+            self.JSONTextBrowser.append_text(dir_)
 
     def loadJSON(self, item):
         """ Loads a JSON file in the directory of choice when double clicked. Same as loadSession except fileName
