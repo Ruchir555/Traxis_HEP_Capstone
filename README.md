@@ -40,6 +40,19 @@ Consult `traxis_User_Guide Updated.docx`, `Calibration_Guide.doc` and
 Generated Python bytecode, operating-system metadata and local JSON session
 files are excluded from version control.
 
+## Tests and continuous integration
+
+The automated tests verify the numerical circle-fitting calculation using
+synthetic points with a known centre and radius:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+GitHub Actions compiles the source and runs these headless numerical tests on
+Python 3.11 for every push and pull request. Full GUI interaction remains a
+manual test because it requires an interactive desktop and image input.
+
 ## Licence
 
 Traxis is distributed under the GNU General Public License v3.0. See
