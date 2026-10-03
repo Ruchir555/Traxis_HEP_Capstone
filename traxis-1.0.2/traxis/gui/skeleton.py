@@ -258,7 +258,7 @@ class GuiSkeleton(QtWidgets.QWidget):
         # validate the contents of the text box so that only floats can
         # be entered
         self.dlLineEdit.setValidator(
-            QtGui.QRegExpValidator(QtCore.QRegExp('[0-9]+\.?[0-9]*')))
+            QtGui.QRegExpValidator(QtCore.QRegExp(r'[0-9]+\.?[0-9]*')))
 
         # add stretch to segment to keep widgets together
         self.userSelectionLayout.addStretch(0)
